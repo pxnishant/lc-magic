@@ -254,29 +254,6 @@ function App() {
             />
           )}
         </div>
-
-        {/* Instructions */}
-        <div className="mt-8 bg-gray-800/20 backdrop-blur-sm rounded-xl p-6 border border-gray-700/30">
-          <h3 className="text-lg font-medium text-white mb-3">Setup Instructions</h3>
-          <div className="text-gray-300 text-sm space-y-2">
-            <p>To use with your actual CSV files:</p>
-            <ol className="list-decimal list-inside space-y-1 ml-4">
-              <li>Create a <code className="bg-gray-700 px-2 py-1 rounded">public/problems</code> folder</li>
-              <li>Add your company folders (e.g., <code className="bg-gray-700 px-2 py-1 rounded">public/problems/Google</code>)</li>
-              <li>Place your CSV files in each company folder:</li>
-              <ul className="list-disc list-inside ml-4 mt-1 space-y-1">
-                <li><code className="bg-gray-700 px-1 rounded">1. Thirty Days.csv</code></li>
-                <li><code className="bg-gray-700 px-1 rounded">2. Three Months.csv</code></li>
-                <li><code className="bg-gray-700 px-1 rounded">3. Six Months.csv</code></li>
-                <li><code className="bg-gray-700 px-1 rounded">5. All.csv</code></li>
-              </ul>
-              <li>The application will automatically load from these files</li>
-            </ol>
-            <p className="mt-3 text-blue-300">
-              <strong>Note:</strong> Your completion progress is automatically saved in your browser's local storage and synced across all companies and durations for the same problem.
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );
