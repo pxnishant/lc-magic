@@ -32,7 +32,8 @@ function App() {
     { name: 'Meta', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
     { name: 'Amazon', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
     { name: 'Microsoft', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
-    { name: 'Apple', durations: ['30 Days', '3 Months', '6 Months', 'All'] }
+    { name: 'Apple', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Fraz', durations: ['All'] }
   ]);
   
   const [selectedCompany, setSelectedCompany] = useState<string>('');
