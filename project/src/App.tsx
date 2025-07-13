@@ -28,13 +28,41 @@ const ALL_TAGS = [
 
 function App() {
   const [companies] = useState<CompanyData[]>([
-    { name: 'Google', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
-    { name: 'Meta', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Fraz', durations: ['All'] },
+    { name: 'Adobe', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Airbnb', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
     { name: 'Amazon', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
-    { name: 'Microsoft', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
     { name: 'Apple', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
-    { name: 'Fraz', durations: ['All'] }
+    { name: 'Atlassian', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'BlackRock', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'BNY Mellon', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Cisco', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Flipkart', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Goldman Sachs', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Graviton', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Google', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'IBM', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'J.P. Morgan', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Jane Streed', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'LinkedIn', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'MathWorks', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Media.net', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Meesho', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Meta', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Microsoft', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Myntra', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Netflix', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Oracle', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Paypal', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Salesforce', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Samsung', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Sprinklr', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Swiggy', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Texas Instruments', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Uber', durations: ['30 Days', '3 Months', '6 Months', 'All'] },
+    { name: 'Zomato', durations: ['30 Days', '3 Months', '6 Months', 'All'] }
   ]);
+  
   
   const [selectedCompany, setSelectedCompany] = useState<string>('');
   const [selectedDuration, setSelectedDuration] = useState<string>('');
